@@ -52,11 +52,6 @@ nav a:hover {
   max-width: 600px;
 }
 
-.hero-text span {
-  color: #007acc;
-  font-weight: bold;
-}
-
 .hero-img {
   flex: 1;
   text-align: center;
@@ -68,6 +63,99 @@ nav a:hover {
   border-radius: 50%;
   border: 6px solid #fff;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cv-buttons {
+  margin-top: 1.5rem;
+}
+
+.cv-buttons a {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 1.1rem;
+  font-size: 1.2rem;
+  background-color: #007acc;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cv-buttons a:hover {
+  background-color: #005a99;
+}
+
+.experience {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.experience-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.experience-icons div {
+  font-size: 2rem;
+}
+
+.contact {
+  padding: 3rem 1rem;
+  background-color: #eef4f8;
+}
+
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #007acc;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.thank-you {
+  display: none;
+  text-align: center;
+  font-size: 1.2rem;
+  color: green;
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  background: linear-gradient(45deg, #007acc, #00c6ff);
+  color: white;
 }
 
 .social-icons a {
@@ -82,15 +170,6 @@ nav a:hover {
   color: #ffde59;
 }
 
-footer {
-  margin-top: 4rem;
-  padding: 2rem 1rem;
-  text-align: center;
-  background: linear-gradient(45deg, #007acc, #00c6ff);
-  color: white;
-}
-
-/* Responsive */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -99,5 +178,25 @@ footer {
 
   .hero-text {
     margin-bottom: 2rem;
+  }
+}
+
+#typed-text {
+  font-weight: bold;
+  color: #007acc; /* or any color you like, e.g. red, #ff5733, etc. */
+  font-size: 1.9rem;
+}
+#typed-text::after {
+  content: "|";
+  animation: blink 0.7s infinite;
+  color: #007acc; /* Cursor color */
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
   }
 }
