@@ -1,0 +1,85 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.contact-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  transition: transform 0.2s;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: #007acc;
+  margin-right: 1rem;
+  min-width: 30px;
+  text-align: center;
+}
+
+.contact-item a {
+  color: #007acc;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.contact-item:hover {
+  transform: translateX(4px);
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #eee;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+}
