@@ -21,7 +21,7 @@
         real-time temperature, humidity, and icons.
       </p>
       <a href="https://github.com/yourusername/weather-app" target="_blank" rel="noopener noreferrer">View Code</a>
-      <a href="" target="_blank" rel="noopener noreferrer">Visit
+      <a href="xyz.com" onclick="showMessage(event)">Visit
         Site</a>
     </div>
 
@@ -34,8 +34,6 @@
       </p>
       <a href="https://github.com/gohar-niazi/Personal-Portfolio-Web.git" target="_blank" rel="noopener noreferrer">View
         Code</a>
-      <a href="https://gohar-niazi.github.io/Personal-Portfolio-Web/" target="_blank" rel="noopener noreferrer">Visit
-        Site</a>
     </div>
 
     <div class="project">
@@ -79,6 +77,14 @@
   <footer>
     <a href="Main.html" onclick="window.close()">← Back to Home</a>
   </footer>
+  <script>
+    function showMessage(event) {
+      event.preventDefault(); // prevent the link from navigating
+      alert(
+        "I'm currently working on this project. Updates coming soon, InshAllah."
+      );
+    }
+  </script>
 </body>
 
 </html>
