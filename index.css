@@ -200,3 +200,137 @@ footer {
     opacity: 0;
   }
 }
+/* === MOBILE STYLES ONLY (max-width: 767px) === */
+@media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .cv-buttons {
+    margin-top: 15px;
+  }
+
+  .cv-buttons a {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 0;
+    background-color: #007acc;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .hero-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .experience {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .experience-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .experience-icons div {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .contact {
+    padding: 20px;
+  }
+
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+
+  .contact button {
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+  }
+
+  .social-icons {
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    color: #007acc;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+}

@@ -74,3 +74,70 @@ footer a:hover {
     flex-direction: column;
   }
 }
+/* === MOBILE STYLES ONLY (max-width: 767px) === */
+@media (max-width: 767px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .skill {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 10px;
+    background-color: #eee;
+  }
+
+  footer a {
+    font-size: 18px;
+    color: #007acc;
+    text-decoration: none;
+  }
+}

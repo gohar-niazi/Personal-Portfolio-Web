@@ -73,3 +73,69 @@ footer {
   transform: scale(1.2);
   color: #ffde59;
 }
+
+/* === MOBILE STYLES ONLY (max-width: 767px) === */
+@media (max-width: 767px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+
+  header {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .about-section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about-content {
+    padding: 0 10px;
+  }
+
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .about-content p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #eee;
+  }
+
+  .social-icons {
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    color: #007acc;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+}
