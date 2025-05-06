@@ -30,13 +30,6 @@ Welcome to my professional portfolio repository! This space showcases my project
   <img src="https://skillicons.dev/icons?i=html,css,js,vscode,git,github" />
 </p>
 
----
-
-## 📸 Screenshots
-
-> Add project screenshots or live demo previews here.
-
----
 
 ## 📫 Connect With Me
 
