@@ -1,14 +1,14 @@
 # 💼 Gohar Nawaz Niazi - Portfolio
 
-Welcome to my professional portfolio repository! This space showcases my projects, skills, and career journey in tech. I’m a passionate developer with a background in software development, UI/UX design, and modern web technologies.
+Welcome to my professional portfolio repository! This space showcases my projects, skills, and career journey in tech. I’m a **passionate web developer** with a focus on building clean, responsive, and user-centered websites.
 
 ---
 
 ## 🧑‍💻 About Me
 
-- 🎓 **Graduate** from *Gomal University Dera Ismail Khan* (CGPA: 3.78)
-- 💼 Former **IT Society leader**, actively involved in tech events and mentoring
-- 🔥 Passionate about building clean, responsive, and user-focused web applications
+- 🎓 **Graduate** from *Gomal University Dera Ismail Khan* (CGPA: 3.78)  
+- 💼 Former **IT Society leader**, actively involved in tech events and mentoring  
+- 🔥 Passionate about web development and creating seamless digital experiences  
 - 📱 Contact: `0336-1636361` | ✉️ goharniazi.dev@gmail.com  
 - 🌐 Portfolio Website: [goharniazi.dev](https://goharniazi.dev)
 
@@ -16,21 +16,25 @@ Welcome to my professional portfolio repository! This space showcases my project
 
 ## 🚀 What This Portfolio Includes
 
-- 💻 **Featured Projects** – Real-world solutions and full-stack applications  
-- 🎨 **UI/UX Design Samples** – Figma and frontend design concepts  
-- 📜 **Experience & Certifications** – Highlights of academic and extracurricular achievements  
-- 🧰 **Tech Stack & Tools** – What I use to build and design  
-- 📂 **Code Samples** – Neat, readable, and performance-focused code
+- 💻 **Featured Projects** – Web solutions built with modern HTML/CSS/JS stack  
+- 🎨 **UI Concepts** – Simple and effective user interface examples  
+- 📜 **Experience & Achievements** – Academic highlights and extracurricular activities  
+- 🧰 **Tech Stack & Tools** – My preferred tools for development  
+- 📂 **Code Samples** – Well-documented, readable, and scalable code
 
 ---
 
 ## 🛠️ Technologies I Use
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,python,java,git,github,figma,vscode" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,vscode,git,github" />
 </p>
 
 ---
+
+## 📸 Screenshots
+
+> Add project screenshots or live demo previews here.
 
 ---
 
@@ -51,4 +55,3 @@ Welcome to my professional portfolio repository! This space showcases my project
 ---
 
 > **“Striving to turn ideas into impactful digital experiences.”**
-
